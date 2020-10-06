@@ -1,0 +1,139 @@
+/*Styling tag selectors*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: black;
+  line-height: 2;
+}
+
+a {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+/* div {
+  background-color: #fbecec;
+} */
+h1 {
+  font-family: 'Sacramento', cursive;
+  color: pink;
+  font-size: 5.625rem;
+  font-weight: bold;
+  margin: 50px auto 0 auto;
+}
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+}
+
+hr {
+  border: 10px dotted grey;
+  border-bottom: none;
+  width: 5%;
+  color: grey;
+  margin: 100px auto;
+}
+
+img {
+  border-radius: 50%;
+  width: 25%;
+  background-color: white;
+}
+
+p {
+  color: grey;
+}
+
+/*Styling class selectors*/
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.bottom-container {
+  background-color: pink;
+  padding: 50px 0 20px;
+}
+
+.footer-link {
+  color: grey;
+}
+
+.icon {
+  width: 15%;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #f58ed8;
+	background-color:#ffc0cb;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #f08bc1;
+  margin-bottom: 35px;
+}
+.myButton:hover {
+	background-color: white;
+  color: pink;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.testimonial-img{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+}
+
+.top-container {
+  position: relative;
+  padding: inherit;
+}
+
+.trademark {
+  color: grey;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/*Styling ID selectors*/
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: black;
+  color: pink;
+  margin: 0;
+}
