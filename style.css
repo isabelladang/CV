@@ -59,6 +59,11 @@ p {
   color: grey;
 }
 
+ul {
+  color: grey;
+  list-style-type: circle;
+}
+
 /*Styling class selectors*/
 
 .carousel-item{
